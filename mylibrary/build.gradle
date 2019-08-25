@@ -1,5 +1,28 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'MyLibrary'
+    bintrayName = 'com.github.saran2020.mylibrary'
+
+    libraryName = 'MyLibrary'
+
+    publishedGroupId = 'com.github.saran2020.mylibrary'
+    artifact = 'MyLibrary'
+    libraryVersion = '1.0'
+
+    libraryDescription = "Demo"
+
+    siteUrl = 'https://github.com/saran2020/MyLibrary'
+    gitUrl = 'https://github.com/saran2020/MyLibrary.git'
+
+    developerId = 'saran2020'
+    developerName = 'Saran Sankaran'
+    developerEmail = 'sands.developer@gmail.com'
+
+    licenseName = 'GNU GENERAL PUBLIC LICENSE'
+    licenseUrl = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+    allLicenses = ["GPL-3.0"]
+}
 
 android {
     compileSdkVersion 28
